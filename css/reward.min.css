@@ -1,0 +1,140 @@
+textarea{
+    margin:0;
+    padding:0;
+}
+button:enabled:active{
+    background-color: #f07924;
+}
+.reward-img{
+    width: 100%;
+    display: inline-block;
+}
+.reward-img img{
+    width: 100%;
+    display: inline-block;
+}
+.div-box{
+    width: 100%;
+    display: inline-block;
+}
+.div-box > span{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1em;
+}
+.div-box > span > em{
+    display: inline-block;
+    font-size: 1.4em;
+    font-weight: 600;
+}
+.reward-box{
+    text-align: center;
+    width: 90%;
+    display: inline-block;
+    margin-left:5%;
+    margin-top: 10px;
+    background-color: #fff;
+    height: 42px;
+    border-radius: 4px;
+    position: relative;
+    font-size: .9em;
+}
+.reward-box > span{
+    position: absolute;
+    top: 10px;
+}
+
+.reward-box > span.money{
+    left:10px;
+}
+.reward-box > span.dollars{
+    right:10px;
+}
+.div-w{
+    margin-top: 11px;
+    margin-left: 50px;
+    margin-right: 30px;
+    text-align: right;
+}
+#money_0{
+    color: #dcdcdc;
+}
+.message{
+    margin-left:50px;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+.message textarea{
+    text-align: right;
+    width: 100%;
+    display: inline-block;
+    margin-top: 3px;
+    border: 0;
+}
+.btn-red{
+    margin-top: 20px;
+    width: 90%;
+    margin-left: 5%;
+    border: 0;
+    padding: 8px 0;
+    border-radius: 4px;
+}
+.red-dis-bg{
+    background-color: #f07924;
+    color: #e5b08a;
+}
+.red-bg{
+    background-color: #f07924;
+    color: #ffffff;
+}
+.keyboard{
+    display: none;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 160px;
+    background-color: #ffffff;
+    border-top: 1px solid #dcdcdc;
+    overflow: hidden;
+}
+.xia-icon{
+    width: 100%;
+    display: inline-block;
+    border-bottom: 1px solid #dcdcdc;
+    position: relative;
+    height: 24px;
+    float: left;
+}
+.xia-icon img{
+    position: absolute;
+    width: 20px;
+    top:5px;
+    left:50%;
+    margin-left:-11px;
+}
+.key-number{
+    width: 100%;
+    display: inline-block;
+}
+.key-number li{
+    position: relative;
+    width: 33.1%;
+    display: inline-block;
+    float: left;
+    height: 34px;
+    line-height: 34px;
+    border: 1px solid #dcdcdc;
+    border-top: 0;
+    border-left: 0;
+}
+.key-number li .span-dian{
+    position: absolute;
+    top: -5px;
+}
+.key-number li:nth-child(3n){
+    border-right: 0;
+}

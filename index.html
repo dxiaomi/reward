@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>发红包</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link href="css/mui.min.css" type="text/css" rel="stylesheet">
+    <link href="css/global.css" type="text/css" rel="stylesheet">
+    <link href="css/reward.min.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div class="reward-img">
+    <img src="images/reward.jpg">
+</div>
+<form action="index.html">
+    <div class="div-box">
+        <div class="reward-box">
+            <span class="money">金额</span>
+            <div class="div-w">
+                <div id="money"></div>
+                <div id="money_0">0.00</div>
+            </div>
+            <span class="dollars">元</span>
+            <input type="hidden">
+        </div>
+        <div class="reward-box">
+            <span class="money">留言</span>
+            <div class="message">
+                <textarea rows="1" placeholder="留言信息"></textarea>
+            </div>
+        </div>
+        <span>￥<em id="sum">0.00</em></span>
+        <button id="btn-dis" class="btn-red red-dis-bg" disabled="disabled">发红包</button>
+    </div>
+</form>
+<footer class="keyboard">
+    <div class="xia-icon"><img src="images/xia.png"> </div>
+    <ul class="key-number">
+        <li class="num">1</li>
+        <li class="num">2</li>
+        <li class="num">3</li>
+        <li class="num">4</li>
+        <li class="num">5</li>
+        <li class="num">6</li>
+        <li class="num">7</li>
+        <li class="num">8</li>
+        <li class="num">9</li>
+        <li class="num"><span class="span-dian">.</span></li>
+        <li class="num">0</li>
+        <li class="li-del">删除</li>
+    </ul>
+</footer>
+<script src="js/jquery.min.js" type="text/javascript"></script>
+<script src="js/mui.min.js" type="text/javascript"></script>
+<script src="js/reward.min.js" type="text/javascript"></script>
+</body>
+</html>
